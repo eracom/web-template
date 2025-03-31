@@ -1,0 +1,67 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* @import */
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Reset */
+
+* { 
+	/* margin: 0; */
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Typographie */
+
+body { font-family: system-ui; }
+
+/* html { font-size: clamp(1em, 0.9em + 1vw, 1.5em); } */
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Mise en page */
+
+	/* Mise en page provisoire / super simple */
+	/* body { max-width: 45rem; margin: auto; } */
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Utilitaire */
+
+/* Système de colonnes */
+.row { display: flex; gap: 1.5rem; }
+.row > * { flex: 1; }
+@media (max-width: 640px ) { .row { flex-direction: column; } }
+
+	/* Version grid */
+	/* .row { display: grid; grid-auto-flow: column; gap: 1.5rem; } */
+
+
+
+
+
+
